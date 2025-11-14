@@ -1,0 +1,100 @@
+:root{
+    --main-text : #000000;
+    --green-color : rgba(17, 129, 61);
+}
+.home{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 1rem 0rem;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    gap: 2rem;
+}
+.items{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+.items .img-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+}
+.items img{
+    width: 180px;
+    height: 150px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.justifyingAboutUs{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+}
+.justifying{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.things{
+    width: 450px;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: start;
+    gap: 1rem;
+    padding: 0rem 1.5rem 0rem 0rem;
+ 
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 100%;
+
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 1rem;
+    text-align: left;
+}
+.content1 h4{
+    text-align: left;
+    color: rgba(17, 129, 61);
+}
+.content1 p{
+    line-height: 1.5rem;
+    word-spacing: 5px;
+    
+}
