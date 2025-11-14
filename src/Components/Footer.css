@@ -60,7 +60,7 @@
     right: 0;
     width: 600px;
     height: 400px;
-} */
+} 
 
 @media (max-width: 1249px) {
     .footer1 {
@@ -109,7 +109,7 @@
         margin-bottom: -40vh;
     }
 }
-/
+
 @media (max-width: 1249px) and (min-width: 901px) {
     .footer1 {
         padding: 2rem 2rem 2rem 2rem; 

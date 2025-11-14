@@ -61,10 +61,8 @@ export default function Home() {
                                 <p>We offer a wide assortment of fresh and high-quality fruits to meet every need.</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
-
             </div>
             <Footer />
         </div>
