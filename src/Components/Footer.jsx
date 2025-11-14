@@ -31,7 +31,7 @@ export default function Footer() {
           <h2>DOWNLOAD THE APP</h2>
           <div className="icons-temp" ><img src={GoogleApp} alt="GoogleApp" />
             <img src={AppStore} alt="AppStore" />
-            <i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram" onClick={() =>window.location.href="https://www.instagram.com/saiiii._10/"}></i><i class="fa-brands fa-facebook-f"></i>
             <i class="fa-brands fa-linkedin-in"></i>
           </div>
           <p>&copy; 2025, GreenKart | Privacy Policy | Sitemap | Terms & Conditions</p>
